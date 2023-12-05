@@ -121,6 +121,8 @@ body {
 }
 .page__brands {
 }
+.page__newcomer {
+}
 /* ================================================================================ */
 /* ======================================== Header ======================================== */
 .header {
@@ -638,6 +640,9 @@ body {
     flex-wrap: wrap;
     gap: 50px;
   }
+  .brands__body {
+    padding: 30px 30px 30px 30px;
+  }
 }
 @media (max-width: 767.98px) {
   .brands {
@@ -652,6 +657,194 @@ body {
   .brands {
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+}
+/* ================================================================================ */
+/* ======================================== Newcomer ======================================== */
+.newcomer {
+}
+.newcomer__container {
+}
+.newcomer__row {
+  display: flex;
+  justify-content: space-between;
+}
+.newcomer__body {
+  flex: 0 1 50.3%;
+}
+.newcomer__title {
+  color: #ffffffe6;
+  font-size: 48px;
+  line-height: 130%; /* 62.4px */
+}
+.newcomer__title:not(:last-child) {
+  margin: 0px 0px 30px 0px;
+}
+.newcomer__text {
+  color: #ffffff8c;
+  font-size: 18px;
+  line-height: 166.667%;
+  max-width: 427px;
+}
+.newcomer__text:not(:last-child) {
+  margin: 0px 0px 60px 0px;
+}
+.newcomer__button-block {
+}
+.newcomer__button {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #ff6e30;
+  color: #fff;
+  font-size: 18px;
+  line-height: normal;
+  padding: 16.2px 40.2px;
+  transition: all 0.3s ease;
+}
+.newcomer__button:hover {
+  background-color: #ff5b15;
+}
+.newcomer__comlun {
+  flex: 0 1 49.7%;
+}
+.newcomer__items {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.newcomer__item {
+  max-width: 288px;
+  padding-bottom: 20px;
+  padding: 28px 33px 24px 33px;
+  border-radius: 15px;
+  background-color: #1e252b;
+  transition: all 0.3s ease;
+}
+.newcomer__item:hover {
+  background-color: rgba(40, 48, 54, 0.6);
+}
+.newcomer-tools {
+}
+.item-newcomer__row {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 0px 0px 30px 0px;
+}
+.item-newcomer__icon {
+  max-width: 100%;
+}
+.item-newcomer__icon img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.item-newcomer__top {
+}
+.item-newcomer__title {
+  font-size: 24px;
+}
+.item-newcomer__title:not(:last-child) {
+  margin: 0px 0px 5px 0px;
+}
+.item-newcomer__price {
+  color: #ffa5378c;
+  font-size: 18px;
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+.newcomer__item:hover .item-newcomer__price {
+  color: #ffa537;
+}
+.item-newcomer__text {
+  color: #ffffff8c;
+  font-weight: 400;
+  line-height: 187.5%;
+  margin: 0px 0px 37px 0px;
+  max-width: 326px;
+  transition: all 0.3s ease;
+}
+.newcomer__item:hover .item-newcomer__text {
+  color: #ffffffc7;
+}
+.item-newcomer__bottom {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+}
+.newcomer__item:hover .item-newcomer__bottom {
+}
+.item-newcomer__icons {
+  display: flex;
+  gap: 25px;
+}
+.item-newcomer__heart {
+  flex: 0 0 29px;
+}
+.item-newcomer__folder {
+  flex: 0 0 29px;
+}
+.item-newcomer__heart img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.item-newcomer__folder img {
+  max-width: 100%;
+  object-fit: cover;
+}
+.item-newcomer__visit {
+  border-radius: 8px;
+  padding: 13px 36px;
+  transition: all 0.3s ease;
+}
+.newcomer__item:hover .item-newcomer__visit {
+  background-color: #ff6e30;
+}
+@media (max-width: 992.98px) {
+  .newcomer__text {
+    max-width: none;
+    text-align: center;
+  }
+  .newcomer__title {
+    text-align: center;
+  }
+  .newcomer__row {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .newcomer__body {
+    flex: 1 1 auto;
+    margin: 0px 0px 60px 0px;
+  }
+  .newcomer__button-block {
+    display: flex;
+    justify-content: center;
+    flex: 1 1 auto;
+  }
+  .newcomer__items {
+    gap: 50px;
+  }
+  .newcomer__item {
+    max-width: none;
+  }
+  .item-newcomer__icons {
+    gap: 15px;
+  }
+}
+@media (max-width: 675.98px) {
+  .newcomer__items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .newcomer__column {
+    flex: 1 1 100%;
+  }
+  .item-newcomer__text {
+    max-width: none;
+  }
+}
+@media (max-width: 420.98px) {
+  .newcomer__title {
+    font-size: 38px;
   }
 }
 /* ================================================================================ */
