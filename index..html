@@ -13,39 +13,41 @@
           <div class="header__logo">
             <a href="#"><img src="img/header/logo.svg" alt="Logo" /></a>
           </div>
-          <nav class="header__menu">
-            <ul class="header__list">
-              <li class="header__item">
-                <a href="#" class="header__link">Home</a>
-              </li>
-              <li class="header__item header__item_dropdown">
-                <a href="#" class="header__link"
-                  >Categories
-                  <a href="" class="header__arrow"
-                    ><img src="img/header/arrow.svg" alt="" /> </a
-                ></a>
-                <div class="header__dropdown-content">
-                  <a href="#">Design</a>
-                  <a href="#">Development</a>
-                </div>
-              </li>
-              <li class="header__item">
-                <a href="#" class="header__link">My Collections</a>
-              </li>
-              <li class="header__item">
-                <a href="#" class="header__link">Blog</a>
-              </li>
-            </ul>
+          <nav class="header__menu menu">
+            <div class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Home</a>
+                </li>
+                <li class="menu__item menu__item_dropdown">
+                  <a href="#" class="menu__link"
+                    >Categories
+                    <a href="" class="menu__arrow"
+                      ><img src="img/header/arrow.svg" alt="" /> </a
+                  ></a>
+                  <div class="menu__dropdown-content">
+                    <a href="#">Design</a>
+                    <a href="#">Development</a>
+                  </div>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">My Collections</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Blog</a>
+                </li>
+              </ul>
+            </div>
           </nav>
           <div class="header__buttons">
             <a href="#" class="header__login">Login</a>
             <a href="" class="header__button btn">Sign Up</a>
-            <div class="header__burger-menu">
-              <div class="line"></div>
-              <div class="line"></div>
-              <div class="line"></div>
-            </div>
           </div>
+          <button class="icon-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
         </div>
       </header>
       <main class="page">
@@ -523,5 +525,6 @@
         </div>
       </footer>
     </div>
+    <script src="js/script.js"></script>
   </body>
 </html>
